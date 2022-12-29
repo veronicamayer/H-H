@@ -1,0 +1,245 @@
+@font-face {
+    font-family: WorkSans;
+    src: url("../fonts/WorkSans-VariableFont_wght.ttf");
+}
+
+@font-face {
+    font-family: Lora;
+    src: url("../fonts/Lora-VariableFont_wght.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.text {
+    font-family: WorkSans;
+    font-size: 1rem;
+    line-height: 1.7rem;
+    font-variation-settings: "wght" 200;
+}
+
+.heading {
+    font-family: Lora;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+header {
+    display: flex;
+}
+
+header section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50vw;
+}
+
+header section p {
+    font-size: 4rem;
+    font-variation-settings: "wght" 600;
+    letter-spacing: 2rem;
+    margin-bottom: 3vh;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 1.1rem;
+    letter-spacing: 0.2rem;
+}
+
+header img {
+    width: 60vw;
+    height: 100vh;
+    object-fit: cover;
+}
+
+/* Abschnitt mit der nav */
+
+.darkbg {
+    background-color: #2d2d2d;
+}
+
+.articleNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2vh 3vw;
+    position: sticky;
+    top: 0;
+    background-color: #2d2d2d;
+}
+
+.articleNav img {
+    width: 70px;
+    object-fit: cover;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 4vw;
+    width: 40vw;
+}
+
+nav a {
+    font-family: WorkSans;
+    color: white;
+    text-decoration: none;
+}
+
+/* Our Story */
+
+.articleStory {
+    display: flex;
+    padding: 13vh 0;
+}
+
+.articleStory img {
+    width: 60vw;
+    object-fit: cover;
+}
+
+.articleStory div {
+    display: flex;
+    flex-direction: column;
+    margin: 5vh 5vw;
+    width: 40vw;
+}
+
+.articleStory h2 {
+    color: white;
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.articleStory div p {
+    margin-bottom: 2vh;
+    color: white;
+}
+
+/* Featured */
+
+.whitebg {
+    background-color: white;
+    padding: 20vh 0;
+}
+
+.articleFeature h2 {
+    text-align: center;
+    margin-bottom: 3vh;
+}
+
+.articleFeature p {
+    text-align: center;
+    margin: auto;
+    width: 30vw;
+}
+
+.articleimg {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10vh 0;
+}
+
+.articleimg div img {
+    width: 30vw;
+    object-fit: cover;
+}
+
+.articleimg div p {
+    text-align: center;
+}
+
+iframe {
+    display: block;
+    margin: auto;
+}
+
+/* Get in touch */
+
+.sectionGetInTouch {
+    color: white;
+    padding: 10vh 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.articleGetInTouch {
+    display: flex;
+    flex-direction: column;
+    width: 30vw;
+}
+
+.articleGetInTouch h2 {
+    margin-bottom: 3vh;
+}
+
+.articleGetInTouch p {
+    margin-bottom: 3vh;
+}
+
+.formText {
+    font-family: Lora;
+    margin-bottom: 1vh;
+}
+
+.formBox {
+    background-color: white;
+    color: #2d2d2d;
+    width: 25vw;
+    margin-bottom: 3vh;
+    line-height: 2rem;
+    font-family: WorkSans;
+    font-size: 0.8rem;
+    padding-left: 1vw;
+}
+
+.formBoxMessage {
+    height: 4rem;
+    margin-bottom: 4vh;
+}
+
+.forma {
+    background-color: white;
+    color: #2d2d2d;
+    border-radius: 5px;
+    padding: 1vh 2vw;
+    font-family: WorkSans;
+    font-size: 0.8rem;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1a282a;
+    display: flex;
+    padding: 4vh 3vw;
+    color: white;
+    font-family: Lora;
+    text-transform: uppercase;
+    position: relative;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1vw;
+}
+
+footer p:nth-of-type(2) {
+    position: absolute;
+    top: 4vh;
+    left: 45vw;
+}
+
+footer div {
+    position: absolute;
+    top: 4vh;
+    right: 3vw;
+}
