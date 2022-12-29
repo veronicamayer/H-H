@@ -147,6 +147,12 @@ nav a {
     padding: 10vh 0;
 }
 
+.articleimg div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .articleimg div img {
     width: 30vw;
     object-fit: cover;
@@ -154,6 +160,7 @@ nav a {
 
 .articleimg div p {
     text-align: center;
+    padding-top: 2vh;
 }
 
 iframe {
@@ -243,3 +250,93 @@ footer div {
     top: 4vh;
     right: 3vw;
 }
+
+
+@media (max-width: 600px) { 
+    .heading {
+        font-size: 1.5rem;
+    }
+
+    header section p {
+        font-size: 3rem;
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    header img {
+        width: 40vw;
+    }
+
+    header section {
+        width: 60vw;
+    }
+
+    nav {
+        width: 50vw;
+    }
+
+    .articleStory img {
+        width: 40vw;
+        object-fit: cover;
+    }
+
+    .text {
+        font-size: 0.9rem;
+    }
+
+    .articleStory div {
+        width: 50vw;
+    }
+
+    .articleNav {
+        padding: 1vh 5vw;
+    }
+
+    .articleNav img {
+        width: 50px;
+    }
+
+    .articleFeature p {
+        width: 50vw;
+    }
+
+    .whitebg {
+        padding: 10vh 2vw;
+    }
+
+    .articleimg div p {
+        width: 26vw;
+        line-height: 1.4rem;
+    }
+
+    .articleGetInTouch {
+        width: 50vw;
+    }
+
+    .form {
+        width: 40vw;
+    }
+
+    .formBox {
+        width: 40vw;
+    }
+
+    footer {
+        font-size: 0.7rem;
+    }
+
+    footer div a {
+        margin: 0 0.5vw;
+    }
+
+    footer p:nth-of-type(2) {
+        position: absolute;
+        top: 4vh;
+        left: 40vw;
+    }
+    
+
+}
+
